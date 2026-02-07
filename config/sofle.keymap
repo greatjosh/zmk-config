@@ -62,14 +62,14 @@
         };
 
         navigation {
-            display-name = "raise";
+            display-name = "navigation";
 
 
             bindings = <
-&none   &none         &none             &none        &none              &none                                   &trans                 &kp HOME  &kp INSERT  &kp PAGE_UP    &trans           &trans
-&none   &none         &none             &none        &none              &kp LS(LEFT_BRACKET)                    &kp LS(RIGHT_BRACKET)  &kp END   &kp UP      &kp PAGE_DOWN  &kp PRINTSCREEN  &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT      &kp LSHFT    &kp LCTRL          &kp LEFT_PARENTHESIS                    &kp RIGHT_PARENTHESIS  &kp LEFT  &kp DOWN    &kp RIGHT      &kp DEL          &kp BSPC
-&trans  &none         &kp LC(LG(LEFT))  &kp LG(TAB)  &kp LC(LG(RIGHT))  &kp LEFT_BRACKET      &trans    &trans  &kp RIGHT_BRACKET      &trans    &trans      &trans         &trans           &trans
+&none   &none         &none             &none        &none              &none                                   &none                  &kp HOME  &kp INSERT  &kp PAGE_UP    &none            &none 
+&none   &none         &none             &none        &none              &kp LS(LEFT_BRACKET)                    &kp LS(RIGHT_BRACKET)  &kp END   &kp UP      &kp PAGE_DOWN  &kp PRINTSCREEN  &none 
+&none   &kp LEFT_GUI  &kp LEFT_ALT      &kp LSHFT    &kp LCTRL          &kp LEFT_PARENTHESIS                    &kp RIGHT_PARENTHESIS  &kp LEFT  &kp DOWN    &kp RIGHT      &kp DEL          &kp BSPC
+&trans  &none         &kp LC(LG(LEFT))  &kp LG(TAB)  &kp LC(LG(RIGHT))  &kp LEFT_BRACKET      &trans    &trans  &kp RIGHT_BRACKET      &none     &none       &none          &none            &none 
                       &trans            &trans       &trans             &trans                &mo 3     &trans  &trans                 &trans    &trans      &trans
             >;
 
@@ -78,7 +78,7 @@
 
         system {
 
-            display-name = "adjust";
+            display-name = "system";
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &none  &none  &none  &none  &none  &none
 &none       &none         &none         &none         &none         &studio_unlock                  &none  &none  &none  &none  &none  &none
